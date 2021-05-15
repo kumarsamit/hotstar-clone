@@ -1,0 +1,2868 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Disney+ Hotstar</title>
+        <!-- meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS files-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/disneyc.css">
+        <!-- favicon-->
+        <link rel="icon" href="img/logo//D+H_favicon.ico">
+        <!-- google font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <!-- bootstrap-->
+            <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+            <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <!-- slider-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+        <!-- slick slider-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <!-- header -->
+        <div class="nav-bar">
+            <div class="nav-bar-link">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-ticket-alt"></i> Channel</a></li>
+                      <li><a class="dropdown-item" href="#lang"> <i class="fas fa-language"></i> Language</a></li>
+                      <li><a class="dropdown-item" href="#lang"> <i class="far fa-surprise"></i> Genres</a></li>
+                    </ul>
+                </div>
+                <a href="index.html"> 
+                <img class="logo" src="img/logo/disney-hotstar-logo-dark.svg" alt="">
+                </a>
+                <a  class="min-subscribe" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">SUBSCRIBE</a>
+                <ul class="nav-bar-var-link">
+                    <li><a href="tv.html">TV</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="Premium.html">Premium</a></li>
+                    <li><a href="disney.html"><b style="color:white">Disney+</b></a></li>
+                    <li><a href="kids.html"><img src="img/logo/4aa70ede8904e16b7630300c09219c8e.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="nav-bar-search">
+                <div class="search-input">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a  class="subscribe" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">SUBSCRIBE</a>
+                <a  class="header-login" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">LOGIN</a>
+            </div>
+        </div>
+
+
+    <!-- login modal-->
+        
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"><i class="fas fa-window-close"></i></button>
+        </div>
+        <div class="modal-body">
+            <h4>Login to continue</h4>
+            <p class="modal-body-account">
+            <a href="#">Have a Facebook/Email account</a>
+            </p>
+            <p>or</p>
+            <div class="modal-body-mobile">
+                <label for="">+91</label>
+            <input type="number" placeholder="Enter Your mobile number">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- subscribe modal-->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+            <table style="width:100%">
+                <tr>
+                  <th></th>
+                  <th><span>Free</span></th>
+                  <th><span>VIP</span></th>
+                  <th><span>Premium</span></th>
+                </tr>
+                <tr>
+                  <td>Unlimited Live Sport</td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                  <td>Hotstar  Special</td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td>English Shows</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                  <tr>
+                    <td>Multiplex Movies</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+
+                </tr>
+                <tr>
+                    <td>Ad. Free Entertainment</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Screen you can watch on</td>
+                    <td><span>1</span> </td>
+                    <td><span>2</span> </td>
+                    <td><span>4</span> </td>
+                  </tr>
+                  <tr>
+                    <td>Video Quality </td>
+                    <td><span>SD</span></td>
+                    <td><span>HD</span></td>
+                    <td><span>4K</span></td>
+                  </tr>
+              </table>
+              <div class="plan-type">
+                  <div class="plan-info">
+                      <h>VIP</p>
+                      <small>399 </small><span>/year</span>
+                  </div>
+                  <div class="plan-info">
+                    <p>Premium</p>
+                    <small>1499</small> <span>/year</span>
+                </div>
+                <div class="plan-info">
+                    <p>Premium</p>
+                    <small>299</small> <span>/month</span>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue <i class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-arrow-left"></i></button>
+              </div>
+        <div class="modal-body">
+         <a href="#">Have a Facebook/ Email account</a>
+         <h5>or</h5>
+         <div><label for="">+91</label> <input type="number" placeholder="Enter Your number"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- hero slider-->
+        <div class="slider-hero">
+            <div class="owl-carousel owl-theme">
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Soul</h2>
+                        <h4>English | Comedy</h4>
+                        <p>
+                            After a small misstep, Joe is transported to The Great Before and must find his way back with the help of an infant soul learning about herself.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/disney+ new/hero-slider/860218-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Wanda Vision</h2>
+                        <h4> Marvel | Action | Superhero</h4>
+                        <p>
+                            Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/disney+ new/hero-slider/911819-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Bad Batch</h2>
+                        <h4>Action | English | Starwars</h4>
+                        <p>
+                            NEW EPISODE EVERY FRIDAY AT 12:30 PM. The Bad Batch must find their way in a rapidly changing galaxy.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/disney+ new/hero-slider/875084-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>The Mandolorian</h2>
+                        <h4>Star Wars | Action </h4>
+                        <p>
+                            After the fall of the Empire, a lone gunfighter makes his way through the outer reaches of the lawless galaxy, earning his keep as a bounty hunter.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/Premium/hero-slider/830018-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Mulan</h2>
+                        <h4> Action</h4>
+                        <p>
+                            Masquerading as a male soldier to protect her father and tested every step of the way, Mulan must harness her inner-strength and embrace her true potential..
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/disney+ new/hero-slider/846652-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Avernger: Endgame</h2>
+                        <h4>Superhero | Science Fiction</h4>
+                        <p>
+                            After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ actions and restore balance to the universe.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/movies-img/hero-slider/675061-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           <!-- disney thumbnail-->
+       <div class="disney-thumbnail">
+            <div class="disney-thumbnail-card"><img src="img/disney+ new/thumbnails/746347-h.webp" alt=""></div>
+            <div class="disney-thumbnail-card"><img src="img/disney+ new/thumbnails/746348-h.webp" alt=""></div>
+            <div class="disney-thumbnail-card"><img src="img/disney+ new/thumbnails/746349-h.webp" alt=""></div>
+            <div class="disney-thumbnail-card"><img src="img/disney+ new/thumbnails/746355-h.webp" alt=""></div>
+            <div class="disney-thumbnail-card"><img src="img/disney+ new/thumbnails/746357-h.webp" alt=""></div>
+        </div>
+
+
+        <!--Recomended for  You -->
+        <div class="popular-movies">
+            <h2 class="main-heading">Recomended For You </h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/957416-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Baby</h5>
+                         <h6>Action | Tamil | Hindi | 2015</h6>
+                         <p>Post 26/11 Mumbai attacks, a special intelligence task force will stop at nothing to foil another su ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/956662-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Angrezi Medium</h5>
+                         <h6>Drama | Comedy | Hindi</h6>
+                         <p>Champak, a simple Mithai-seller, will go to any lengths to fulfil daughter Tarika's dream of studyin ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/846660-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Mulan</h5>
+                         <h6>Action | Drama |Tamil | Hindi | 2015</h6>
+                         <p>Masquerading as a male soldier to protect her father and tested every step of the way, Mulan must ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/977899-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Sulthan</h5>
+                         <h6>Action | Tamil | 2021</h6>
+                         <p>Despite being raised by hardened criminals, Vikram, aka Sulthan, hates violence and decides to trans ...</p>>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/593669-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Housefull 4</h5>
+                         <h6>2020 | Comedy | Hindi</h6>
+                         <p>A set of six lovers had to part ways in 1419. Six centuries later, they meet again only to realise t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+ new/recommended/674882-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Prince Of Persia</h5>
+                         <h6>Action | Thriller | Hindi</h6>
+                         <p>A young fugitive prince and princess must stop a villain who unknowingly threatens to destroy the wo ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875162-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger Endgame</h5>
+                         <h6>Superhero | Action | English | Hindi</h6>
+                         <p>After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+ new/recommended/754293-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avtar</h5>
+                         <h6>Science Fiction | Action | English</h6>
+                         <p>Former Marine Jake Sully is deployed as an Avatar on a mission to Pandora but, he ultimately finds h ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+ new/recommended/675050-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Sorcerer's Apprentice</h5>
+                         <h6>Action | English</h6>
+                         <p>Master sorcerer Balthazar hires Dave as an apprentice to aid him in saving the city from his arch-en ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875171-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger: Idinity war</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>With the powerful Thanos on the verge of raining destruction upon the universe, the Avengers will ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/177309-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Badhai Ho</h5>
+                         <h6> Comedy | Hindi</h6>
+                         <p>Getting a new sibling at 25 is the last thing Nakul expected. Will he ever come to terms with the em ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/928061-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Iceman</h5>
+                         <h6> Comedy | English</h6>
+                         <p>A short film about an unconventional encounter between an Indian man and a white woman at a convenie ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+
+            <!-- New on Disney+ -->
+        <div class="star-wars">
+            <h2 class="main-heading">New on Disney+</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/875085-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Mandalorian</h5>
+                         <h6>Action | Science fiction | Star War</h6>
+                         <p>After the fall of the Empire, a lone gunfighter makes his way through the outer reaches of the lawle ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/981754-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> Pose</h5>
+                         <h6>Drama | Starworld</h6>
+                         <p>NEW EPISODE EVERY MONDAY AT 11:30 AM. In 1987 New York, LGBTQ ball fixture Blanca starts her own hou ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/974793-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> Nomadland</h5>
+                         <h6>Drama | English | 2021</h6>
+                         <p>Following the economic collapse of a town in rural Nevada, Fern sets off on the road exploring a lif ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980655-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Bad Batch</h5>
+                         <h6>Action | Science fiction | Starwars</h6>
+                         <p>NEW EPISODE EVERY FRIDAY AT 12:30 PM. The Bad Batch must find their way in a rapidly changing galaxy ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/latest&trending/936370-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Falcon and the Winter soldier</h5>
+                         <h6>Documentry | Tamil | Hindi | kannada | Banagali</h6>
+                         <p>Following the events of “Avengers: Endgame,” Sam Wilson and Bucky Barnes team up in a global adventu ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/956345-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> The New Mutant</h5>
+                         <h6>Science Fiction | Superhero | English | kannada | Banagali</h6>
+                         <p>The story of a team of mutant heroes comprised of the first graduates from Charles Xavier's school,  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/966616-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> Earth moods</h5>
+                         <h6>Travel | Natgeo | English </h6>
+                         <p>Escape everyday life with Earth Moods. Viewers relax and reset as they travel to blue glaciers, swir ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/924641-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> Predators</h5>
+                         <h6>Horror | Thriller | Action </h6>
+                         <p>In this new chapter, a group of cold-blooded killers are brought together on an alien planet to be h ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/858195-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> westworld</h5>
+                         <h6>Science Fiction | English </h6>
+                         <p>In a futuristic amusement park, Westworld, the visitors interact with automatons. However, all hell  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/860219-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> Soul</h5>
+                         <h6>Comedy | English </h6>
+                         <p>After a small misstep, Joe is transported to The Great Before and must find his way back with the he ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/875206-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Frozen II</h5>
+                         <h6>Kids | Musical | English | Hindi</h6>
+                         <p>Why was Elsa born with magical powers? Together with Anna, Kristoff, Olaf, and Sven, she sets out on ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875180-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Black Panther</h5>
+                         <h6>Marvel | Superhero | Action | Hindi | English</h6>
+                         <p>T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                    </div>
+             </div>
+        </div>
+        
+        <!--New & Upcoming -->
+        <div class="chote-episode">
+            <h2 class="main-heading">New & Upcoming on Disney+ Hotstar</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/956847-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Loki: Trailer</p>
+                        <p class="row-item-dis">Loki’s time has come. Watch the brand-new trailer for "Loki," and start streaming the Marvel Studios ....</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/941102-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> The Nevers: Trailer</p>
+                        <p class="row-item-dis">Victorian women find themselves with unusual abilities, relentless enemies and a mission that may ch ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/962931-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Earth Moods: Trailer</p>
+                        <p class="row-item-dis">As her life crumbles around her, a small-town Pennsylvania detective Mare Sheehan investigates a loc ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div><div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/941054-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Mighty Ducks: Trailer</p>
+                        <p class="row-item-dis">A new group of misfits rediscovers the joys of playing hockey for the love of the game.</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div><div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/935932-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> The New Mutant: Trailer</p>
+                        <p class="row-item-dis">The story of a team of mutant heroes comprised of the first graduates from Charles Xavier's school,  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/865078-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Ms Marvel: Sizzie</p>
+                        <p class="row-item-dis">Ms. Marvel, a newer character to Marvel comics has grabbed the world's imagination and we are excite ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/853645-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Wanda Vision: Trailer</p>
+                        <p class="row-item-dis">"We are an unusual couple." Marvel Studios' #WandaVision, an Original Series, starts streaming Jan.  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/911373-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> City of Hill S2</p>
+                        <p class="row-item-dis">"We are an unusual couple." Marvel Studios' #WandaVision, an Original Series, starts streaming Jan.  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/Premium/new&upcoming/857865-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> What If..?</p>
+                        <p class="row-item-dis">"We are an unusual couple." Marvel Studios' #WandaVision, an Original Series, starts streaming Jan.  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                   <!-- may the 4th be with you -->
+        <div class="star-wars">
+            <h2 class="main-heading">May The 4th BE With You</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/875085-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Mandalorian</h5>
+                         <h6>Action | Science fiction | Star War</h6>
+                         <p>After the fall of the Empire, a lone gunfighter makes his way through the outer reaches of the lawle ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980116-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star War Vehicle Fly Throuhs</h5>
+                         <h6>Documentry | Starwars</h6>
+                         <p>Get up-close and personal with some of the Star Wars films’ most iconic ships and vehicles as this s ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980639-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star Wars Biomes</h5>
+                         <h6>Action | Science fiction | Starwars</h6>
+                         <p>After the fall of the Empire, a lone gunfighter makes his way through the outer reaches of the lawle ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980985-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Maggie Simpson The "Force Awekens From its Nap "</h5>
+                         <h6>Famliy | English | 2021</h6>
+                         <p>In a daycare far, far away… but still in Springfield, Maggie is on an epic quest for her stolen paci ....</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/652558-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star Wars: The Clone Wars</h5>
+                         <h6>Action | Science fiction | Starwars</h6>
+                         <p>The Grand Army of the Republic, led by Yoda, Mace Windu, Obi-Wan Kenobi, Anakin Skywalker and other  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/676162-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Disney Gallery/ Star Wars: The Mandalorian</h5>
+                         <h6>Documentry | Starwars</h6>
+                         <p>Producer Jon Favreau invites the cast and crew to share a look at the making of the first live-actio ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/676554-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star Wars: The Last Jedi</h5>
+                         <h6>Action | Science fiction | English | Starwars</h6>
+                         <p>Rey develops her newly discovered abilities with the guidance of Luke Skywalker as the Resistance pr ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980655-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Bad Batch</h5>
+                         <h6>Action | Science fiction | Starwars</h6>
+                         <p>NEW EPISODE EVERY FRIDAY AT 12:30 PM. The Bad Batch must find their way in a rapidly changing galaxy ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/654778-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star Wars Rebel (Short)</h5>
+                         <h6>Kid | Action | Science fiction | </h6>
+                         <p>When the Galactic Empire secures its hold on the galaxy, hunting down the last Jedi Knights, a stars ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980116-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star War Vehicle Fly Throuhs</h5>
+                         <h6>Documentry | Starwars</h6>
+                         <p>Get up-close and personal with some of the Star Wars films’ most iconic ships and vehicles as this s ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/may-the-4th/980639-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Star Wars Biomes</h5>
+                         <h6>Action | Science fiction | Starwars</h6>
+                         <p>After the fall of the Empire, a lone gunfighter makes his way through the outer reaches of the lawle ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+         <!--Movies for Kids  -->
+         <div class="popular-movies">
+            <h2 class="main-heading">Rise Of Mutants</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/new-hotstar/956345-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> The New Mutant</h5>
+                         <h6>Science Fiction | Superhero | English | kannada | Banagali</h6>
+                         <p>The story of a team of mutant heroes comprised of the first graduates from Charles Xavier's school,  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/820525-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5> X-men: Dark Phoenix</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>After a rescue mission in space, Jean Grey behaves unstably. The X-Men must find a way to save her s ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/1770000445-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Wolverine</h5>
+                         <h6> Superhero | Action | Science Fiction </h6>
+                         <p>In Japan, Wolverine faces his nemesis in a do-or-die battle as his inner struggles come to the fore. ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/297413-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Deadpool 2</h5>
+                         <h6> Superhero | Action | Science Fiction </h6>
+                         <p>Mutant mercenary Wade Wilson aka. Deadpool brings together a team of rogue mercenaries to protect a  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/177557-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Logan</h5>
+                         <h6> Superhero | Action | Science Fiction </h6>
+                         <p>A weary Logan is forced out of hiding to protect Laura, a young mutant, who is pursued by an evil co ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/1770015391-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men: Apocalypse</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>The X-Men stand united to face Apocalypse, the first mutant, who returns from the darkness and sees  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/1770003257-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Deadpool</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>Wade Wilson's life is changed forever when an experiment by twisted scientist Ajax goes wrong. With  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/1770000943-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>Marie runs away from home and hitches a ride with a mutant known as Wolverine. Charles Xavier sends  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/177613-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men: Last Stand</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>When humans find a cure for mutation, Professor Charles Xavier and the X-Men must hold fort while Ma ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/177574-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men: United</h5>
+                         <h6>Action | Science Fiction </h6>
+                         <p>Nightcrawler infiltrates the White House and attempts to assassinate the president. It is time for t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/177616-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men: First Class</h5>
+                         <h6>Supehero | Action | Science Fiction </h6>
+                         <p>During the Cold War, fellow mutants Charles Xavier and Erik Lehnsherr join forces with other mutants ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/1770000667-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Wolverine: Origins</h5>
+                         <h6>Superhero | Action | Science Fiction </h6>
+                         <p>A mutant and future X-Men member called Wolverine sets out to avenge the deaths of his loved ones at ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/Mutants/177631-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>X-men: Days of Future Past</h5>
+                         <h6>Superhero | Action | Science Fiction </h6>
+                         <p>The X-Men set out to destroy Sentinels, who are hunting humans and mutants as Logan decides to go ba ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Action & Adventure -->
+       <div class="latest">
+        <h2 class="main-heading">Action & Adventure</h2>
+        <div class="row slider">
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/Action&Adventure/897246-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Fantastic Four</h5>
+                     <h6>Superhero | Action | English</h6>
+                     <p>A group of astronauts gain superpowers after a cosmic radiation exposure and must use them to oppose ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/recommended/674882-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Prince Of Persia</h5>
+                     <h6>Action | Thriller | Hindi</h6>
+                     <p>A young fugitive prince and princess must stop a villain who unknowingly threatens to destroy the wo ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            
+            <div class="row-item">
+                <a href="#">
+                <img src="img/popular-movies/875162-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Avenger Endgame</h5>
+                     <h6>Superhero | Action | English | Hindi</h6>
+                     <p>After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/Action&Adventure/674442-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Incredibles 2</h5>
+                     <h6>Science Fiction | Action | English</h6>
+                     <p>Mr. Incredible is left to care for the newborn while Missus out saving the world, but the going gets ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/recommended/675050-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>The Sorcerer's Apprentice</h5>
+                     <h6>Action | English</h6>
+                     <p>Master sorcerer Balthazar hires Dave as an apprentice to aid him in saving the city from his arch-en ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/Action&Adventure/1770000963-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Ice Age</h5>
+                     <h6>Comdedy | Family | English</h6>
+                     <p>In the Ice Age, Sid, Manny, and Diego find a human child and the trio undertake a mission to return  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/super-hero/875190-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Captain Marvel</h5>
+                     <h6>Superhero | Action | Hindi | English</h6>
+                     <p>Carol Danvers becomes one of the universe’s most powerful heroes when Earth is caught in the middle  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/disney+ new/recommended/754293-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Avtar</h5>
+                     <h6>Science Fiction | Action | English</h6>
+                     <p>Former Marine Jake Sully is deployed as an Avatar on a mission to Pandora but, he ultimately finds h ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/super-hero/674463-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Captain America:Civil war </h5>
+                     <h6>Superhero | Action | English</h6>
+                     <p>The government's decision to push a Hero Registration Act to regulate heroes creates a rift among th ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/super-hero/911258-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Wanda Vision</h5>
+                     <h6>Science Diction | Superhero | Action | Hindi | English</h6>
+                     <p>Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/Premium/new-hotstar/858195-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5> westworld</h5>
+                     <h6>Science Fiction | English </h6>
+                     <p>In a futuristic amusement park, Westworld, the visitors interact with automatons. However, all hell  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/Premium/new-hotstar/860219-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5> Soul</h5>
+                     <h6>Comedy | English </h6>
+                     <p>After a small misstep, Joe is transported to The Great Before and must find his way back with the he ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/super-hero/674580-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Thor: Ragnarok</h5>
+                     <h6> Superhero | Action | English</h6>
+                     <p>Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his h ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Latest and trending-->
+       <div class="latest">
+           <h2 class="main-heading">Top Picks For you</h2>
+           <div class="row slider">
+               <div class="row-item">
+                   <a href="#">
+                   <img src="img/latest&trending/827509-v.jpg" alt="">
+                   </a>
+                    <div class="row-item-info">
+                       <div>
+                        <h5>Laxmi</h5>
+                        <h6>Horror | Comedy | Hindi</h6>
+                        <p>Aasif's belief in logic and science shatters when he gets possessed by a ghost.</p>
+                        <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                        <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                       </div>
+                    </div>
+               </div>
+               <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/959649-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Big Bull</h5>
+                     <h6>Drama | Crime | Hindi</h6>
+                     <p>During the late '80s, Hemant Shah, the man with the Midas touch.</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/movies-top-pick/600701-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Arjun Reddy</h5>
+                     <h6>Romance | Hindi</h6>
+                     <p>A short-tempered yet brilliant young medical surgeon immerses himself in drugs and alcohol when his  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/940231-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>1231 KMS</h5>
+                     <h6>Documentry | Tamil | Hindi | kannada | Banagali</h6>
+                     <p>Weeks after the nationwide COVID-19 lockdown, seven migrant labourers.</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/936370-v.png" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Falcon and the Winter soldier</h5>
+                     <h6>Documentry | Tamil | Hindi | kannada | Banagali</h6>
+                     <p>Following the events of “Avengers: Endgame,” Sam Wilson and Bucky Barnes team up in a global adventu ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/movies-top-pick/892408-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Station Mastet Foolkumar</h5>
+                     <h6>Hindi | Comedy | Romance</h6>
+                     <p>The station master of Kesupur, Phool Kumar, is a lonely man. Crashing this monotony, Asha enters his ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/911869-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>The Legent of Hanuman</h5>
+                     <h6>Hotstar Special | Mytholgy</h6>
+                     <p>When the power-hungry Ravan tore through the world to unleash evil, in his way stood a humble vaanar ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/movies-top-pick/983994-v.png" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Blowback</h5>
+                     <h6>Hindi | Drama</h6>
+                     <p>An anxious boy is confused if marijuana helps him with his issues. His quest to answer this dilemma  ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/803256-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Bahut Hua Samman</h5>
+                     <h6>Comedy | Thriller | Hindi | 2020</h6>
+                     <p>Perpetually failing engineering students Bony and Fundoo get talked into robbing a bank by the campu ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/movies-top-pick/14740-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Taqdeer</h5>
+                     <h6>Hindi | Action</h6>
+                     <p>Avinash gets separated from his childhood love Priya. Will fate play its part and bring the two estr ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/747437-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>KHUDA HAAFIZ</h5>
+                     <h6>Action | Romance | Hindi | 2020</h6>
+                     <p>A newly married couple's life falls in jeopardy when his wife goes missing under mysterious circumst ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/733095-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>LOOTCASE</h5>
+                     <h6>Comedy | Hindi | 2020</h6>
+                     <p>What will you do if you find a bag full of cash? Nandan Kumar faces a similar dilemma when a bag tri ....</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/723085-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>DIL BECHARA</h5>
+                     <h6> Romance| Drama | Hindi | 2020</h6>
+                     <p>What will you do if you find a bag full of cash? Nandan Kumar faces a similar dilemma when a bag tri ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/movies-top-pick/1000074189-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Drisyam</h5>
+                     <h6>Hindi | Thriller</h6>
+                     <p>Story of a common family man who takes desperate measures to save his wife and two daughters when th ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/747437-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>KHUDA HAAFIZ</h5>
+                     <h6>Action | Romance | Hindi | 2020</h6>
+                     <p>A newly married couple's life falls in jeopardy when his wife goes missing under mysterious circumst ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/733095-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>LOOTCASE</h5>
+                     <h6>Comedy | Hindi | 2020</h6>
+                     <p>What will you do if you find a bag full of cash? Nandan Kumar faces a similar dilemma when a bag tri ....</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+           </div>
+       </div>
+
+
+       <!-- Multiplex movies-->
+       <div class="latest">
+        <h2 class="main-heading">Multiplex Movies</h2>
+        <div class="row slider">
+            <div class="row-item">
+                <a href="#">
+                <img src="img/latest&trending/827509-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Laxmi</h5>
+                     <h6>Horror | Comedy | Hindi</h6>
+                     <p>Aasif's belief in logic and science shatters when he gets possessed by a ghost.</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/biopic/1000001354-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Milka Singh</h5>
+                     <h6>Biopic | Hindi </h6>
+                     <p>The film chronicles Milkha Singh aka 'The Flying Sikh's,' incredible struggle - from being an orphan ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/928131-v.png" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Chaddi</h5>
+                     <h6>Romance | Comedy | Hindi</h6>
+                     <p>Trapped in a loveless marriage, Mrs Chaddha, a lonely housewife, finds an unusual love. As she falls ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/388285-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Total Dhamal</h5>
+                     <h6>Comedy | Hindi</h6>
+                     <p>When 50 million bucks are at stake, six eccentric people will do whatever it takes, including bravin ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/581665-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>The Past</h5>
+                     <h6>Horror | Hindi</h6>
+                     <p>When a budding writer moves to a hill station to write her new book, little does she know that an ev ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/571529-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Misson Mangal</h5>
+                     <h6>Drama | Hindi</h6>
+                     <p>Based on the true story of India's finest scientists who rose above hardships and failures to make u ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/multiplex-movies/928367-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Teddy</h5>
+                     <h6>Action |Thriller | Tamil |  Hindi </h6>
+                     <p>When a loner crosses paths with a live teddy bear, the unusual duo sets off on an adventurous ride t ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/biopic/64665-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Sanju</h5>
+                     <h6>Biopic | Hindi | Drama</h6>
+                     <p>A heart-warming, real-life story of actor Sanjay Dutt's complicated relationships, his addictions an ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/multiplex-movies/441327-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Junglee</h5>
+                     <h6>Action | Hindi </h6>
+                     <p>Back in his hometown after years, Raj befriends Bhola, an elephant. As time passes, he discovers a d ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/556828-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Super 30</h5>
+                     <h6>Biopic | Hindi</h6>
+                     <p>Based on the life of ace mathematician Anand Kumar, who trained 30 underprivileged students to crack ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/movies-img/multiplex-movies/875156-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Aladdin</h5>
+                     <h6>Family | Musical | Englis | Hindi</h6>
+                     <p>In this live-action retelling of 1992 classic, Aladdin and a power-hungry Grand Vizier vie for a mag ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="row-item">
+                <a href="#">
+                <img src="img/recomeded-movies/277711-v.jpg" alt="">
+                </a>
+                 <div class="row-item-info">
+                    <div>
+                     <h5>Haramkhor</h5>
+                     <h6>Drama | Hindi</h6>
+                     <p>A married teacher's illicit affair with his teenage student turns into an odd love triangle, when he ...</p>
+                     <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                     <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+        <!--Most recommneded movies -->
+        <div class="recommended">
+            <h2 class="main-heading"> Blockbuster Movies</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/957416-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Baby</h5>
+                         <h6>Action | Tamil | Hindi | 2015</h6>
+                         <p>Post 26/11 Mumbai attacks, a special intelligence task force will stop at nothing to foil another su ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/593669-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Housefull 4</h5>
+                         <h6>2020 | Comedy | Hindi</h6>
+                         <p>A set of six lovers had to part ways in 1419. Six centuries later, they meet again only to realise t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/956662-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Angrezi MEdium</h5>
+                         <h6>Drama | Comedy | Hindi</h6>
+                         <p>Champak, a simple Mithai-seller, will go to any lengths to fulfil daughter Tarika's dream of studyin ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/177309-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Badhai Ho</h5>
+                         <h6> Comedy | Hindi</h6>
+                         <p>Getting a new sibling at 25 is the last thing Nakul expected. Will he ever come to terms with the em ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/928131-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Chaddi</h5>
+                         <h6>Romance | Comedy | Hindi</h6>
+                         <p>Trapped in a loveless marriage, Mrs Chaddha, a lonely housewife, finds an unusual love. As she falls ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/388285-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Total Dhamal</h5>
+                         <h6>Comedy | Hindi</h6>
+                         <p>When 50 million bucks are at stake, six eccentric people will do whatever it takes, including bravin ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/581665-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Past</h5>
+                         <h6>Horror | Hindi</h6>
+                         <p>When a budding writer moves to a hill station to write her new book, little does she know that an ev ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/571529-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Misson Mangal</h5>
+                         <h6>Drama | Hindi</h6>
+                         <p>Based on the true story of India's finest scientists who rose above hardships and failures to make u ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/556828-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Super 30</h5>
+                         <h6>Biopic | Hindi</h6>
+                         <p>Based on the life of ace mathematician Anand Kumar, who trained 30 underprivileged students to crack ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/277711-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Haramkhor</h5>
+                         <h6>Drama | Hindi</h6>
+                         <p>A married teacher's illicit affair with his teenage student turns into an odd love triangle, when he ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+           <!--Movies for Kids  -->
+           <div class="popular-movies">
+            <h2 class="main-heading">Best Of Kids </h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/674831-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The jungle Book</h5>
+                         <h6>Family | kids | Tamil | Hindi | 2015</h6>
+                         <p>When a tiger named Shere Khan threatens to kill Mowgli, a young boy raised by wolves, his friends Ba ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/871223-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Maleficent: Mistress of Evil </h5>
+                         <h6>Famliy | Action | Hindi | English</h6>
+                         <p>Maleficent and her goddaughter Aurora begin to question their tangled ties as they are pulled in dif ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/674979-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Moana</h5>
+                         <h6>Kids | Musical | English | Hindi</h6>
+                         <p>A young woman uses her navigational talents to set sail for a fabled island. Joining her on the adve ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/875206-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Frozen II</h5>
+                         <h6>Kids | Musical | English | Hindi</h6>
+                         <p>Why was Elsa born with magical powers? Together with Anna, Kristoff, Olaf, and Sven, she sets out on ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875180-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Black Panther</h5>
+                         <h6>Marvel | Superhero | Action | Hindi | English</h6>
+                         <p>T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/674016-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pheneas and Ferb</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Phineas and Ferb embark on various adventures during their summer vacation, while trying to keep the ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/674737-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Good Dinosaur</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Arlo, an Apatosaurus makes friends with a human friend and learns how to deal with his fears and wha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/675222-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pete's Dragon</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Pete tells Grace about his friend in the forest called Elliot, a dragon. Not believing Pete, she asks him to take her to Elliot.</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/684876-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Iceage 2</h5>
+                         <h6>Comedy | Family |  English | Hindi |</h6>
+                         <p>A pirate bunny named Squint jeopardizes Sid's plans by stealing his eggs. Now, the gang embarks on a ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/666642-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Robot</h5>
+                         <h6>Science Fiction | kid |  English | Hindi |</h6>
+                         <p>Rodney Copperbottom dreams of making the world a better place. However, the corporate tyrant Ratchet ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!--Popular movies -->
+        <div class="popular-movies">
+            <h2 class="main-heading">Popular Movies</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/957416-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Baby</h5>
+                         <h6>Action | Tamil | Hindi | 2015</h6>
+                         <p>Post 26/11 Mumbai attacks, a special intelligence task force will stop at nothing to foil another su ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/846660-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Mulan</h5>
+                         <h6>Action | Drama |Tamil | Hindi | 2015</h6>
+                         <p>Masquerading as a male soldier to protect her father and tested every step of the way, Mulan must ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/977899-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Sulthan</h5>
+                         <h6>Action | Tamil | 2021</h6>
+                         <p>Despite being raised by hardened criminals, Vikram, aka Sulthan, hates violence and decides to trans ...</p>>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/593669-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Housefull 4</h5>
+                         <h6>2020 | Comedy | Hindi</h6>
+                         <p>A set of six lovers had to part ways in 1419. Six centuries later, they meet again only to realise t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875162-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger Endgame</h5>
+                         <h6>Superhero | Action | English | Hindi</h6>
+                         <p>After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/956662-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Angrezi Medium</h5>
+                         <h6>Drama | Comedy | Hindi</h6>
+                         <p>Champak, a simple Mithai-seller, will go to any lengths to fulfil daughter Tarika's dream of studyin ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875171-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger: Idinity war</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>With the powerful Thanos on the verge of raining destruction upon the universe, the Avengers will ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/177309-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Badhai Ho</h5>
+                         <h6> Comedy | Hindi</h6>
+                         <p>Getting a new sibling at 25 is the last thing Nakul expected. Will he ever come to terms with the em ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/928061-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Iceman</h5>
+                         <h6> Comedy | English</h6>
+                         <p>A short film about an unconventional encounter between an Indian man and a white woman at a convenie ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- best of super heroes-->
+        <div class="super-hero">
+            <h2 class="main-heading">Best of Superheroes</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/latest&trending/936370-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Falcon and the Winter soldier</h5>
+                         <h6>Documentry | Tamil | Hindi | kannada | Banagali</h6>
+                         <p>Following the events of “Avengers: Endgame,” Sam Wilson and Bucky Barnes team up in a global adventu ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875162-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger Endgame</h5>
+                         <h6>Superhero | Action | English | Hindi</h6>
+                         <p>After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875180-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Black Panther</h5>
+                         <h6>Marvel | Superhero | Action | Hindi | English</h6>
+                         <p>T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875171-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger: Idinity war</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>With the powerful Thanos on the verge of raining destruction upon the universe, the Avengers will ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875190-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Captain Marvel</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Carol Danvers becomes one of the universe’s most powerful heroes when Earth is caught in the middle  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674463-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Captain America:Civil war </h5>
+                         <h6>Superhero | Action | English</h6>
+                         <p>The government's decision to push a Hero Registration Act to regulate heroes creates a rift among th ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/911258-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Wanda Vision</h5>
+                         <h6>Science Diction | Superhero | Action | Hindi | English</h6>
+                         <p>Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674580-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Thor: Ragnarok</h5>
+                         <h6> Superhero | Action | English</h6>
+                         <p>Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his h ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674390-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Ironman 3</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Tony Stark encounters a formidable foe called the Mandarin, and after failing to him, he embarks on  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674483-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Antman</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Cat burglar Scott Lang must embrace his inner-hero and help his mentor, Dr. Hank Pym, plan and pull  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674622-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Dr. Strange</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Dr. Strange faces a difficult choice of whether to return to his life of luxury or to protect the wo ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674411-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Guardian of the Galaxy</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>A stranded jet pilot in space must unite a diverse team of aliens to form a squad capable of defeati ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- biopics-->
+        <div class="biopic">
+            <h2 class="main-heading">Poular in Biopics</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/recomeded-movies/556828-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Super 30</h5>
+                         <h6>Biopic | Hindi</h6>
+                         <p>Based on the life of ace mathematician Anand Kumar, who trained 30 underprivileged students to crack ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/813150-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Ford V Ferrari</h5>
+                         <h6>Biopic | English | Drama</h6>
+                         <p>Caroll Shelby and Ken Miles battle against all the odds to build a race car for Ford Motor Company a ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/1000001354-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Milka Singh</h5>
+                         <h6>Biopic | Hindi </h6>
+                         <p>The film chronicles Milkha Singh aka 'The Flying Sikh's,' incredible struggle - from being an orphan ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/64665-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Sanju</h5>
+                         <h6>Biopic | Hindi | Drama</h6>
+                         <p>A heart-warming, real-life story of actor Sanjay Dutt's complicated relationships, his addictions an ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/1000090704-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Neerja</h5>
+                         <h6>Biopic | Hindi</h6>
+                         <p>A biopic on the brave Neerja Bhanot, the head purser had sacrificed her life for the safety of her p ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/666991-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Babasaheb Ambedker</h5>
+                         <h6>Biopic | Hindi | Drama</h6>
+                         <p>A show dedicated to the life and works of the social reformer, leader of the downtrodden and father  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/1000160650-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Hawaizaada</h5>
+                         <h6>Biopic | Hindi</h6>
+                         <p>Inspired by true events. Set in the era of British India, Shivkar Bapuji Talpade, a school drop-out, ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/871612-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>A Hidden Life</h5>
+                         <h6>Biopic | English | Hindi</h6>
+                         <p>Franz Jagerstatter who refused to fight for the Nazis in World War II, overcomes his harsh punishmen ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/686852-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Shri Ramakrishna</h5>
+                         <h6>Biopic |Star Jalsa | Drama</h6>
+                         <p>From being a simple Brahmin boy to the priest at the Dakhineshwar Kali temple, follow the journey of ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/281951-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Farzand</h5>
+                         <h6>Biopic | Marathi | Drama</h6>
+                         <p>Based on the life of brave soldier Kondaji Farzand, who recaptured the Panhala Fort from the reigns  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div><div class="row-item">
+                    <a href="#">
+                    <img src="img/biopic/739684-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Rookie</h5>
+                         <h6>Biopic | English</h6>
+                         <p>A high school baseball coach gets a second chance at a professional pitching career, provided his do ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular on Disney+-->
+        <div class="popular-disney">
+            <h2 class="main-heading">Popular on Disney+</h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/875236-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pirates of the Carribean Sea</h5>
+                         <h6>Action| English | Hindi | kannada | Banagali</h6>
+                         <p>Captain Jack Sparrow senses the winds of ill-fortune when his nemesis Captain Salazar escapes from t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Now</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/675304-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Beaty and the Beast</h5>
+                         <h6>Romance | Musical | Hindi | English</h6>
+                         <p>Belle is taken prisoner by a beast in his castle. Despite her fears, she looks beyond the Beast's hi ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/674390-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Ironman 3</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Tony Stark encounters a formidable foe called the Mandarin, and after failing to him, he embarks on  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/871223-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Maleficent: Mistress of Evil </h5>
+                         <h6>Famliy | Action | Hindi | English</h6>
+                         <p>Maleficent and her goddaughter Aurora begin to question their tangled ties as they are pulled in dif ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875162-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger Endgame</h5>
+                         <h6>Superhero | Action | English | Hindi</h6>
+                         <p>After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/875206-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Frozen II</h5>
+                         <h6>Kids | Musical | English | Hindi</h6>
+                         <p>Why was Elsa born with magical powers? Together with Anna, Kristoff, Olaf, and Sven, she sets out on ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875180-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Black Panther</h5>
+                         <h6>Marvel | Superhero | Action | Hindi | English</h6>
+                         <p>T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/674016-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pheneas and Ferb</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Phineas and Ferb embark on various adventures during their summer vacation, while trying to keep the ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/popular-movies/875171-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Avenger: Idinity war</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>With the powerful Thanos on the verge of raining destruction upon the universe, the Avengers will ha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/super-hero/875190-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Captain Marvel</h5>
+                         <h6>Superhero | Action | Hindi | English</h6>
+                         <p>Carol Danvers becomes one of the universe’s most powerful heroes when Earth is caught in the middle  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Animation Domination-->
+        <div class="popular-disney">
+            <h2 class="main-heading">Animation Domination </h2>
+            <div class="row slider">
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/846891-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Valient</h5>
+                         <h6>Comedy | kid |  English | Hindi |</h6>
+                         <p>At the height of World War II, a tiny wood pigeon enlists in the elite Royal Homing Pigeon Service t ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/744248-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Spies Disguise</h5>
+                         <h6>Action | kid |  English | Hindi |</h6>
+                         <p>The unlikely duo of super spy Lance Sterling and scientist Walter Beckett is forced to work as a tea ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch MOvie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/684902-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Dr. Seuss Horton</h5>
+                         <h6>Comedy | Family |  English | Hindi |</h6>
+                         <p>Horton, a kindly elephant, discovers a civilization living on a speck of dust and protects them from ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/686576-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Space Champ 2</h5>
+                         <h6>Science Fiction| kid |  English | Hindi |</h6>
+                         <p>Comet, the techno chimp who wants to be a fully-fledged space chimp, must prove himself when feared  ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/684876-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Iceage 2</h5>
+                         <h6>Comedy | Family |  English | Hindi |</h6>
+                         <p>A pirate bunny named Squint jeopardizes Sid's plans by stealing his eggs. Now, the gang embarks on a ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/666642-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Robot</h5>
+                         <h6>Science Fiction | kid |  English | Hindi |</h6>
+                         <p>Rodney Copperbottom dreams of making the world a better place. However, the corporate tyrant Ratchet ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/666576-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Epic</h5>
+                         <h6>Comedy | Family |  English | Hindi |</h6>
+                         <p>Mary is transported to a deep forest that is in a war between the forces of good and evil. She joins ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/Premium/animation-domination/666638-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Rio</h5>
+                         <h6>Comedy | Family |  English | Hindi |</h6>
+                         <p>Blu is a Spix's macaw born in Rio De Janeiro but raised in Moose Lake, Minnesota. He meets Jewel and ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/disney+/674016-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pheneas and Ferb</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Phineas and Ferb embark on various adventures during their summer vacation, while trying to keep the ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/674737-v.jpg" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>The Good Dinosaur</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Arlo, an Apatosaurus makes friends with a human friend and learns how to deal with his fears and wha ...</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row-item">
+                    <a href="#">
+                    <img src="img/movies-img/kids/675222-v.png" alt="">
+                    </a>
+                     <div class="row-item-info">
+                        <div>
+                         <h5>Pete's Dragon</h5>
+                         <h6>Kids | English | Hindi | English</h6>
+                         <p>Pete tells Grace about his friend in the forest called Elliot, a dragon. Not believing Pete, she asks him to take her to Elliot.</p>
+                         <p class="row-item-watch"> <i class="fas fa-play"></i> Watch Movie</p>
+                         <p class="row-item-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+        
+
+
+
+
+
+        
+       <!-- footer-->
+       <div class="footer">
+           <div class="footer-col-1">
+               <p>
+                  <a href="about.html">About Disney+ Hotstar</a>
+                  <a href="#">Term of use</a> 
+                  <a href="#">Privay Policy</a>     
+                  <a href="#">FAQs</a>
+                  <a href="#">Feedback</a>
+                  <a href="#">Careers</a>
+               </p>
+               <p>
+                © 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
+               </p>
+           </div>
+           <div class="footer-col-2">
+               <h4>Conect with us</h4>
+               <div>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+
+               </div>
+           </div>
+           <div class="footer-col-3">
+            <h4>Disney+ Hotstar App</h4>
+            <div>
+                <a href="#">
+                    <i class="fab fa-apple"></i> Appstore
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-play"></i>
+                    PlayStore
+                </a>
+            </div>
+
+           </div>
+       </div>
+        <!-- slider-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+       <script>
+        $('.owl-carousel').owlCarousel({
+           loop:true,
+           margin:20,
+           nav:false,
+           center:true,
+           autoplay:true,
+           autoplayTimeout:2000,
+           autoplayHoverPause:true,
+           controls:true,
+           responsive:{
+                0:{
+                   items:1
+               },
+               600:{
+                   items:1
+               },
+               1000:{
+                   items:1
+                },
+               1200:{
+                   items:1
+               }
+           }
+       })
+    </script>
+    <!-- slick slider-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+        <!-- js for slick slider-->
+        <script>
+            $('.slider').slick({
+  dots: false,
+  center:true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+ </script>
+</body>
+</html>
