@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Disney+ Hotstar</title>
+        <!-- meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS files-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/common.css">
+        <!-- favicon-->
+        <link rel="icon" href="img/logo//D+H_favicon.ico">
+        <!-- google font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <!-- bootstrap-->
+            <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+            <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <!-- slider-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+        <!-- slick slider-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <!-- header -->
+        <div class="nav-bar">
+            <div class="nav-bar-link">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-ticket-alt"></i> Channel</a></li>
+                      <li><a class="dropdown-item" href="#lang"> <i class="fas fa-language"></i> Language</a></li>
+                      <li><a class="dropdown-item" href="#lang"> <i class="far fa-surprise"></i> Genres</a></li>
+                    </ul>
+                </div>
+                <a href="index.html"> 
+                <img class="logo" src="img/logo/disney-hotstar-logo-dark.svg" alt="">
+                </a>
+                <a  class="min-subscribe" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"> SUBSCRIBE</a>
+                <ul class="nav-bar-var-link">
+                    <li><a href="tv.html">TV</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="sports.html"><b style="color:white">Sports</b></a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="Premium.html">Premium</a></li>
+                    <li><a href="disney.html">Disney+</a></li>
+                    <li><a href="kids.html"><img src="img/logo/4aa70ede8904e16b7630300c09219c8e.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="nav-bar-search">
+                <div class="search-input">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a  class="subscribe" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">SUBSCRIBE</a>
+                <a  class="header-login" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">LOGIN</a>
+            </div>
+        </div>
+
+
+    <!-- login modal-->
+        
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"><i class="fas fa-window-close"></i></button>
+        </div>
+        <div class="modal-body">
+            <h4>Login to continue</h4>
+            <p class="modal-body-account">
+            <a href="#">Have a Facebook/Email account</a>
+            </p>
+            <p>or</p>
+            <div class="modal-body-mobile">
+                <label for="">+91</label>
+            <input type="number" placeholder="Enter Your mobile number">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- subscribe modal-->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+            <table style="width:100%">
+                <tr>
+                  <th></th>
+                  <th><span>Free</span></th>
+                  <th><span>VIP</span></th>
+                  <th><span>Premium</span></th>
+                </tr>
+                <tr>
+                  <td>Unlimited Live Sport</td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                  <td>Hotstar  Special</td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                <tr>
+                    <td>English Shows</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-times"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+                </tr>
+                  <tr>
+                    <td>Multiplex Movies</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  <td><i class="fas fa-check"></i></td>
+
+                </tr>
+                <tr>
+                    <td>Ad. Free Entertainment</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Screen you can watch on</td>
+                    <td><span>1</span> </td>
+                    <td><span>2</span> </td>
+                    <td><span>4</span> </td>
+                  </tr>
+                  <tr>
+                    <td>Video Quality </td>
+                    <td><span>SD</span></td>
+                    <td><span>HD</span></td>
+                    <td><span>4K</span></td>
+                  </tr>
+              </table>
+              <div class="plan-type">
+                  <div class="plan-info">
+                      <h>VIP</p>
+                      <small>399 </small><span>/year</span>
+                  </div>
+                  <div class="plan-info">
+                    <p>Premium</p>
+                    <small>1499</small> <span>/year</span>
+                </div>
+                <div class="plan-info">
+                    <p>Premium</p>
+                    <small>299</small> <span>/month</span>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue <i class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-arrow-left"></i></button>
+              </div>
+        <div class="modal-body">
+         <a href="#">Have a Facebook/ Email account</a>
+         <h5>or</h5>
+         <div><label for="">+91</label> <input type="number" placeholder="Enter Your number"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- hero slider-->
+        <div class="slider-hero">
+            <div class="owl-carousel owl-theme">
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Leeds United vs Tottenham</h2>
+                        <h4>Premier League</h4>
+                        <p>
+                            Watch live stream of the Premier League 2020/21 match between Leeds United and Tottenham
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/sport-img/hero-slider/984466-h.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Spanish GP Practice 5</h2>
+                        <h4>Formula 1</h4>
+                        <p>
+                            Watch live stream of the third practice session from the Formula 1 2021 Spanish Grand Prix
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/sport-img/hero-slider/984493-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Monaco E-Prix Qulalifying</h2>
+                        <h4>Formula 2021</h4>
+                        <p>
+                            Watch live stream of qualifying from the Formula E Monaco E-Prix 2021
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/sport-img/hero-slider/984496-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Preview: Menchester City Vs Chelsa</h2>
+                        <h4>Premier League 2021</h4>
+                        <p>
+                            Manchester City chase the Premier League crown as the Cityzens host Chelsea in Gameweek 35 of Premier League 2020/21
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/sport-img/hero-slider/983304-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-col-1">
+                        <div class="item-col-1-info">
+                            <h2>Super Over! DC Beats SRH in Thriller </h2>
+                        <h4>VIVO IPL 2021</h4>
+                        <p>
+                            Delhi Capitals trumped Sunrisers Hyderabad in the Super Over after a nail-biting clash in Match 20 of VIVO IPL 2021
+                        </p>
+                        </div>
+                    </div>
+                    <div class="item-col-2">
+                        <div class="item-col-2-img">
+                            <img src="img/sport-img/hero-slider/982631-h.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+          <!-- Sports-->
+          <div class="language " id="lang">
+            <h2 class="main-heading">Popular Sports</h2>
+            <div class="row slider">
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10771-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Cricket</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10773-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Football</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10774-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>F1</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10775-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Badminton</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-18057-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Golf</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10777-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Hockey</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/PCTV-10776-hcdl.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Tennis</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/639301-h.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Wrestling</p>
+                    </div>
+                </div>
+                <div class="row-item-3">
+                    <a href="#">
+                    <img src="img/sport-img/Games/954921-h.webp" alt="">
+                    </a>
+                    <div class="row-item-3-heading">
+                        <p>Formula E</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--best  in sports-->
+        <div class="best-sport">
+            <h2 class="main-heading">Best Of VIVO IPL</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/981372-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> VIVO IPL Postponed: Shukla</p>
+                        <p class="row-item-dis">BCCI Vice-President Rajeev Shukla confirmed that the 2021 season of VIVO IPL has been postponed due  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982352-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> 37 off 6! Jadeja demolishes: HArshal</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982349-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Mavi conceds six fours in an over </p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982186-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>20 off 6! Cummins betters Curran</p>
+                        <p class="row-item-dis">Chennai Super Kings' Sam Curran and Ravindra Jadeja hammered 23 runs off Delhi Capitals' Tom Curran  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div><div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980510-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Top catches from week 3 ft. Du plesisi</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980802-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Players of GW Ft. Bale</p>
+                        <p class="row-item-dis">Tottenham's Gareth Bale is the player of Gameweek 34 after dispatching Sheffield United with a wonde ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--best  in Kabaddi-->
+         <div class="best-sport">
+            <h2 class="main-heading">Best Of Kabaddi</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/570244-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Warrior 41-69 Pirates</p>
+                        <p class="row-item-dis">Pardeep Narwal's 34 electric raid points in Match 124 of VIVO Pro Kabaddi 2019 helped Patna Pirates  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/571495-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Yodha 36-41 Titans</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/554534-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Bulls 40-39 Pirates</p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/527080-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> India 7 32-33 World 7 </p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/2001604802-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Gujrat 38-35 Patna</p>
+                        <p class="row-item-dis">Chennai Super Kings' Sam Curran and Ravindra Jadeja hammered 23 runs off Delhi Capitals' Tom Curran  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div><div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/554534-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Top catches from week 3 ft. Du plesisi</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/2001604651-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Patna 79-30 Haryana </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/576121-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Highlights : Warriors Maiden</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/2001486052-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>U Mumba 28-31 Patna</p>
+                        <p class="row-item-dis">Tottenham's Gareth Bale is the player of Gameweek 34 after dispatching Sheffield United with a wonde ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/2001753255-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>VIVO Pro Kabbadi Pro Auction</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--best  in sports-->
+         <div class="best-sport">
+            <h2 class="main-heading">Best Of Hockey</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/962388-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Highlights: Argentina 0-3 Inida</p>
+                        <p class="row-item-dis">BCCI Vice-President Rajeev Shukla confirmed that the 2021 season of VIVO IPL has been postponed due  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/962387-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Highlights: Argentina 2-2 Inida</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/582317-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Highlights: Inida 3-5 Russia </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/642579-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> India 3-1 Australia</p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/2001807050-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Pakistan 1-7 India</p>
+                        <p class="row-item-dis">Chennai Super Kings' Sam Curran and Ravindra Jadeja hammered 23 runs off Delhi Capitals' Tom Curran  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/958384-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Replays : Argentina Vs India</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/651434-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Australia Vs Argentina</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/582492-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Replays: NZ Vs Korea</p>
+                        <p class="row-item-dis">Tottenham's Gareth Bale is the player of Gameweek 34 after dispatching Sheffield United with a wonde ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/2001606236-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Finals: Argentina Vs Australia</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--best  in sports-->
+         <div class="best-sport">
+            <h2 class="main-heading">Highlights VIVO IPL 2021</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/981372-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> VIVO IPL Postponed: Shukla</p>
+                        <p class="row-item-dis">BCCI Vice-President Rajeev Shukla confirmed that the 2021 season of VIVO IPL has been postponed due  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982186-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>20 off 6! Cummins betters Curran</p>
+                        <p class="row-item-dis">Chennai Super Kings' Sam Curran and Ravindra Jadeja hammered 23 runs off Delhi Capitals' Tom Curran  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982349-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Mavi conceds six fours in an over </p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980510-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Top catches from week 3 ft. Du plesisi</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980802-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Players of GW Ft. Bale</p>
+                        <p class="row-item-dis">Tottenham's Gareth Bale is the player of Gameweek 34 after dispatching Sheffield United with a wonde ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982352-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> 37 off 6! Jadeja demolishes: HArshal</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--best  in sports-->
+         <div class="best-sport">
+            <h2 class="main-heading">Best Of Highlights</h2>
+            <div class="row slider">
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/981372-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> VIVO IPL Postponed: Shukla</p>
+                        <p class="row-item-dis">BCCI Vice-President Rajeev Shukla confirmed that the 2021 season of VIVO IPL has been postponed due  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982186-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>20 off 6! Cummins betters Curran</p>
+                        <p class="row-item-dis">Chennai Super Kings' Sam Curran and Ravindra Jadeja hammered 23 runs off Delhi Capitals' Tom Curran  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/570244-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Warrior 41-69 Pirates</p>
+                        <p class="row-item-dis">Pardeep Narwal's 34 electric raid points in Match 124 of VIVO Pro Kabaddi 2019 helped Patna Pirates  ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/571495-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Yodha 36-41 Titans</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/554534-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Bulls 40-39 Pirates</p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/958384-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Replays : Argentina Vs India</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/hockey/651434-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Australia Vs Argentina</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sport-img/kabaddi/527080-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> India 7 32-33 World 7 </p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982349-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> Mavi conceds six fours in an over </p>
+                        <p class="row-item-dis">Delhi Capitals' Prithvi Shaw tore in Shivam Mavi by hitting six fours in the first over against Kolk ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980510-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Top catches from week 3 ft. Du plesisi</p>
+                        <p class="row-item-dis">Check out the best catches from the second and third weeks of VIVO IPL 2021</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/979701-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>DC sink to PBKS to to top</p>
+                        <p class="row-item-dis">Delhi Capitals approached their chase confidently to beat a weary Punjab Kings by seven wickets in V ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/980802-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>Players of GW Ft. Bale</p>
+                        <p class="row-item-dis">Tottenham's Gareth Bale is the player of Gameweek 34 after dispatching Sheffield United with a wonde ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982352-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i> 37 off 6! Jadeja demolishes: HArshal</p>
+                        <p class="row-item-dis">Chennai Super Kings' Ravindra Jadeja went berserk as Harshal Patel conceded the joint-most runs (37) ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+                <div class="row-item-2">
+                    <a href="#">
+                    <img src="img/sports/982189-h.jpg" alt="">
+                    </a>
+                    <div class="row-item-2-heading">
+                        <p class="sports-heading"> <i class="fas fa-play"></i>ABD smacks stoinis for 23 </p>
+                        <p class="row-item-dis">AB de Villiers smashed Marcus Stoinis for 23 runs as he took Royal Challengers Bangalore past 170 ag ...</p>
+                        <p class="row-item-watch row-item-2-watch"> <i class="fas fa-plus"></i> Add to watchlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+       <!-- footer-->
+       <div class="footer">
+           <div class="footer-col-1">
+               <p>
+                  <a href="about.html">About Disney+ Hotstar</a>
+                  <a href="#">Term of use</a> 
+                  <a href="#">Privay Policy</a>     
+                  <a href="#">FAQs</a>
+                  <a href="#">Feedback</a>
+                  <a href="#">Careers</a>
+               </p>
+               <p>
+                © 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
+               </p>
+           </div>
+           <div class="footer-col-2">
+               <h4>Conect with us</h4>
+               <div>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+
+               </div>
+           </div>
+           <div class="footer-col-3">
+            <h4>Disney+ Hotstar App</h4>
+            <div>
+                <a href="#">
+                    <i class="fab fa-apple"></i> Appstore
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-play"></i>
+                    PlayStore
+                </a>
+            </div>
+
+           </div>
+       </div>
+        <!-- slider-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+       <script>
+        $('.owl-carousel').owlCarousel({
+           loop:true,
+           margin:20,
+           nav:false,
+           center:true,
+           autoplay:true,
+           autoplayTimeout:2000,
+           autoplayHoverPause:true,
+           controls:true,
+           responsive:{
+                0:{
+                   items:1
+               },
+               600:{
+                   items:1
+               },
+               1000:{
+                   items:1
+                },
+               1200:{
+                   items:1
+               }
+           }
+       })
+    </script>
+    <!-- slick slider-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+        <!-- js for slick slider-->
+        <script>
+            $('.slider').slick({
+  dots: false,
+  center:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+ </script>
+</body>
+</html>
