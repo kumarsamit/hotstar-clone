@@ -1,0 +1,21 @@
+.disney-thumbnail{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+    background: var(--BG_COLOR_L0);
+}
+.disney-thumbnail-card{
+    width: 16%;
+    border-radius: 5px;
+    transition: .5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.disney-thumbnail-card img{
+    width: 100%;
+}
+.disney-thumbnail-card:hover{
+    transform: scale(1.1);
+}
